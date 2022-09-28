@@ -11,4 +11,6 @@ public interface UserService {
     public Usuario getById(Integer userId);
 
     public void saveUser(Usuario user);
+
+    public void deleteUser(Integer id);
 }
